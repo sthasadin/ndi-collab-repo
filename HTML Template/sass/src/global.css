@@ -1,0 +1,16 @@
+/*global classes*/
+button,
+button:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f1f3f6;
+}
+/*# sourceMappingURL=global.css.map */

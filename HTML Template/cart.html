@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nepal Dental</title>
+
+
+  <!--Bootstrap CND-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!--owl carosel-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+
+  <!--font awesome icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+
+  <!--custom css file-->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Header #header-->
+  <header id="header">
+    <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+      <p class="font-rale font-size-12 text-black-50 m-0">Kathmandu, Nepal</p>
+      <div class="font-rale font-size-14">
+        <a href="#" class="px-3 border-right border-left text-end text-dark">login</a>
+        <a href="#" class="px-3 border-right border-left text-end text-dark">Wishlist (0)</a>
+
+      </div>
+
+    </div>
+
+    <!--Prmary Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Nepal Dental International</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav m-auto font-rubik">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <!-- catagory Dropdown-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Catagory
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <form action="#" class="font-size-14 font-rale">
+            <a href="#" class="py-2 rounded-pill color-primary-bg">
+              <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+              <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--/Prmary Navigation-->
+
+
+  </header>
+  <!-- /Header #header-->
+
+  <!-- Main #main-site-->
+  <main id="main-site">
+
+    <!-- shopping cart section-->
+    <section id="cart" class="py-3">
+      <div class="container-fluid w-75">
+        <h5 class="font-baloo font-size-20">Shopping Cart</h5>
+
+        <!--Shopping cart items-->
+        <div class="row">
+          <!---cart items sections-->
+          <div class="col-sm-9">
+            <!--Cart item 1-->
+            <div class="row border-top py-3 mt-3">
+              <div class="col-sm-2">
+                <img src="./assets/brands/skydent/skydent-relive-premium .jpg" style="height: 120px;" alt="cart-item1" class="img-fluid">
+              </div>
+
+              <!--procuts rating and button on left side column-->
+              <div class="col-sm-8">
+                <h5 class="font-baloo font-size-20">Dental Chair</h5>
+                <small>by Ndi</small>
+                <!--product rating-->
+                <div class="d-flex">
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <a href="#" class="px-2 font-rale font-size-14">(4.5 out of 5)</a>
+                </div>
+                <!--/product rating-->
+
+                <!--product quantity-->
+                <div class="qty d-flex pt-2">
+                  <div class="d-flex font-rale w-25">
+                    <button class="qty-up border bg-light" data-id="product1"><i class="fas fa-angle-up"></i></button>
+                    <input type="text" data-id="product1" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
+                    <button class="qty-down border bg-light" data-id="product1"><i class="fas fa-angle-down"></i></button>
+                  </div>
+                  <button type="submit" class="btn font-baloo text-danger px-2 mx-2 border">Delete</button>
+                  <button type="submit" class="btn font-baloo text-danger px-2 border">Save for later</button>
+                </div>
+
+                <!--/product quantity-->
+
+              </div>
+
+              <!--procuts price right side column-->
+              <div class="col-sm-2 text-end">
+                <div class="font-size-20 text-danger font-baloo">
+                  Nrs. <span class="product_price">500</span>
+                </div>
+              </div>
+            </div>
+            <!--/Cart item 1-->
+
+            <!--Cart item 2-->
+            <div class="row border-top py-3 mt-3">
+              <div class="col-sm-2">
+                <img src="./assets/item2.jpeg" style="height: 120px;" alt="cart-item1" class="img-fluid">
+              </div>
+            
+              <!--procuts rating and button on left side column-->
+              <div class="col-sm-8">
+                <h5 class="font-baloo font-size-20">Dental Chair</h5>
+                <small>by Ndi</small>
+                <!--product rating-->
+                <div class="d-flex">
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <a href="#" class="px-2 font-rale font-size-14">(4.5 out of 5)</a>
+                </div>
+                <!--/product rating-->
+            
+                <!--product quantity-->
+                <div class="qty d-flex pt-2">
+                  <div class="d-flex font-rale w-25">
+                    <button class="qty-up border bg-light " data-id="product2"><i class="fas fa-angle-up"></i></button>
+                    <input type="text"  data-id="product2" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
+                    <button class="qty-down border bg-light" data-id="product2"><i class="fas fa-angle-down"></i></button>
+                  </div>
+                  <button type="submit" class="btn font-baloo text-danger px-2 mx-2 border">Delete</button>
+                  <button type="submit" class="btn font-baloo text-danger px-2 border">Save for later</button>
+                </div>
+            
+                <!--/product quantity-->
+            
+              </div>
+            
+              <!--procuts price right side column-->
+              <div class="col-sm-2 text-end">
+                <div class="font-size-20 text-danger font-baloo">
+                  Nrs. <span class="product_price">500</span>
+                </div>
+              </div>
+            </div>
+            <!--/Cart item 2-->
+          </div>
+          <!----------/cart items sections-->
+          <!-----------Subtotal section-->
+          <div class="col-sm-3">
+            <div class="sub-total border text-center mt-2">
+              <h6 class="font-size-12 font-rale text-success py-3"><i class="fas fa-check"></i> Your order is eligible for free delivery</h6>
+              <div class="border-top py-4">
+                <h5 class="font-baloo font-size-20l">Subtotal (2 items):&nbsp; <span class="text-danger">Nrs&nbsp;</span><span class="text-danger" id="deal-price">1000</span> </h5>
+                <button type="submit" class="btn btn-warning mt-3">Proceed to Buy</button>
+              </div>
+            </div>
+
+          </div>
+          <!-----------/Subtotal section-->
+        </div>
+        <!--/Shopping cart items-->
+      </div>
+    </section>
+    <!-- /shopping cart section-->
+
+
+
+    <!-- new-arrival New Arrivals-->
+    <section id="new-arrival">
+      <div class="container py-2 ">
+        <h4 class="font-rubik font-size-20">New Arrivals</h4>
+        <hr>
+        <!--Owl Carousel-->
+        <div class="owl-carousel owl-theme py-10">
+          <!--Product item 1-->
+          <div class="item py-1 px-2 bg-light">
+            <div class="product font-rale">
+              <a href="product.html">
+                <img src="./assets/brands/skydent/skydent-relive-premium .jpg" alt="item1" class="img-fluid py-3">
+              </a>
+              <div class="text-center py-1">
+                <!--Product title-->
+                <a href="product.html">
+                  <h6>Skydent Relieve Chair</h6>
+                  <!--Product rating-->
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <!--Product Price-->
+                  <div class="price py-3">
+                    <span>Rs. 500</span>
+                  </div>
+                  <!--Product Button (add to cart)-->
+                  <!-- <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button> -->
+                </a>
+              </div>
+            </div>
+          </div>
+    
+          <!--Product item 2 -->
+          <div class="item py-1 px-2 bg-light">
+            <div class="product font-rale">
+              <a href="product.html">
+                <img src="./assets/item2.jpeg" alt="item1" class="img-fluid py-3">
+              </a>
+              <div class="text-center py-1">
+                <!--Product title-->
+                <a href="product.html" class="text-black">
+                  <h6>Product2</h6>
+                </a>
+                <!--Product rating-->
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <!--Product Price-->
+                <div class="price py-3">
+                  <span>Rs. 500</span>
+                </div>
+                <!--Product Button (add to cart)-->
+                <!-- <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button> -->
+    
+              </div>
+            </div>
+          </div>
+          <!--Product item 3 -->
+          <div class="item py-1 px-2 bg-light">
+            <div class="product font-rale">
+              <a href="#">
+                <img src="./assets/item8.jpg" alt="item1" class="img-fluid py-3">
+              </a>
+              <div class="text-center py-1">
+                <!--Product title-->
+                <h6>Product3</h6>
+                <!--Product rating-->
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <!--Product Price-->
+                <div class="price py-3">
+                  <span>Rs. 500</span>
+                </div>
+                <!--Product Button (add to cart)-->
+                <!-- <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button> -->
+    
+              </div>
+            </div>
+          </div>
+    
+          <!--Product item 4 -->
+          <div class="item py-1 px-2 bg-light">
+            <div class="product font-rale">
+              <a href="#">
+                <img src="./assets/item4.jpg" alt="item1" class="img-fluid py-3">
+              </a>
+              <div class="text-center py-1">
+                <!--Product title-->
+                <h6>Product4</h6>
+                <!--Product rating-->
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <!--Product Price-->
+                <div class="price py-3">
+                  <span>Rs. 500</span>
+                </div>
+                <!--Product Button (add to cart)-->
+                <!-- <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button> -->
+    
+              </div>
+            </div>
+          </div>
+          <!--Product item 6 -->
+          <div class="item py-1 px-2 bg-light">
+            <div class="product font-rale">
+              <a href="#">
+                <img src="./assets/item6.jpg" alt="item1" class="img-fluid py-3">
+              </a>
+              <div class="text-center py-1">
+                <!--Product title-->
+                <h6>Product6</h6>
+                <!--Product rating-->
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <!--Product Price-->
+                <div class="price py-3">
+                  <span>Rs. 500</span>
+                </div>
+                <!--Product Button (add to cart)-->
+                <!-- <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button> -->
+    
+              </div>
+            </div>
+          </div>
+    
+          <!--Product item 7 -->
+          <div class="item py-1 px-2 bg-light">
+            <div class="product font-rale">
+              <a href="#">
+                <img src="./assets/item8.jpg" alt="item1" class="img-fluid py-3">
+              </a>
+              <div class="text-center py-1">
+                <!--Product title-->
+                <h6>Product7</h6>
+                <!--Product rating-->
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <!--Product Price-->
+                <div class="price py-3">
+                  <span>Rs. 500</span>
+                </div>
+                <!--Product Button (add to cart)-->
+                <!-- <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button> -->
+    
+              </div>
+            </div>
+          </div>
+    
+        </div>
+        <!--/Owl Carousel-->
+        <hr style="margin-top: 25px;">
+      </div>
+    </section>
+    <!-- /new-arrival New Arrivals-->
+
+
+
+  </main>
+  <!-- /Main #main-site-->
+
+  <!-- footer #footer-->
+  <footer id="footer" class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <!--Column 1-->
+        <div class="col-lg-3 col-12">
+          <h4 class="font-rubik font-size-20">Nepal Dental International</h4>
+          <p class="font-size-14 font-rale test-white-50">Lorem ipsum dolor sit amet </p>
+        </div>
+        <!--Column 2-->
+        <div class="col-lg-4 col-12">
+          <h4 class="font-rubik font-size-20">Newsletter</h4>
+          <form class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="col">
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <!--Column 3-->
+        <div class="col-lg-2 col-12">
+          <h4 class="font-rubik font-size-20">NDI</h4>
+          <div class="d-flex flex-column flex-wrap">
+            <a href="#" class="font-rale font-size-14 text-white pb-1">About Us</a>
+            <a href="#" class="font-rale font-size-14 text-white pb-1">Legal Information</a>
+            <a href="#" class="font-rale font-size-14 text-white pb-1">Contact Us</a>
+          </div>
+
+        </div>
+        <!--Column 4-->
+        <div class="col-lg-2 col-12">
+          <h4 class="font-rubik font-size-20">Account</h4>
+          <div class="d-flex flex-column flex-wrap">
+            <a href="#" class="font-rale font-size-14 text-white pb-1">My Account</a>
+            <a href="#" class="font-rale font-size-14 text-white pb-1">Order History</a>
+            <a href="#" class="font-rale font-size-14 text-white pb-1">Wishlist</a>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+  <!-- /footer #footer-->
+  <!-- copyright div-->
+  <div class="copyright text-center bg-dark text-white py-2">
+    <p class="font-rale font-size-14">&copy: Copyrights 2021. Designed By <a href="#" class="color-second">The Web
+        Project</a></p>
+
+  </div>
+  <!-- /copyright div-->
+
+
+
+  <!-- [Fixed] Uncaught ReferenceError: $ is not defined -->
+
+  <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+  <!-- Owl Carousel js file-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"></script>
+
+  <!--isotope filter managing plugin js CDN-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+    integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+    crossorigin="anonymous"></script>
+
+  <!-- Custom js file -->
+  <script src="./index.js"></script>
+</body>
+
+</html>

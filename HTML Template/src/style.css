@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+/* Sass Template*/
+/*global classes*/
+button,
+button:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f1f3f6;
+}
+
+/*typography classes*/
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/*Color Template*/
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #0099e6;
+}
+
+.color-second-bg {
+  background: #0099e6;
+}
+
+.color-yellow {
+  color: #ffd289;
+}
+
+.color-yellow-bg {
+  background: #ffd289;
+}
+
+/* new-arrival template*/
+#new-arrival {
+  /* prev and next button next to the product carousel -moving it to the top */
+  /* prev and next button next to the product carousel*/
+}
+
+#new-arrival .owl-carousel .item {
+  background: #ffffff;
+  padding: 20px 0px;
+  margin: 1px;
+  color: black;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#new-arrival .owl-carousel .item .product a {
+  overflow: hidden;
+  color: black;
+}
+
+#new-arrival .owl-carousel .item .product {
+  -webkit-transition: -webkit-transform 0.1s ease;
+  transition: -webkit-transform 0.1s ease;
+  transition: transform 0.1s ease;
+  transition: transform 0.1s ease, -webkit-transform 0.1s ease;
+}
+
+#new-arrival .owl-carousel .item .product:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#new-arrival .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+
+#new-arrival .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+
+#new-arrival .owl-carousel .owl-nav button.owl-prev span,
+#new-arrival .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+
+#new-arrival .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+
+#new-arrival .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+
+#new-arrival .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/* new-arrival template*/
+#dental-perfect {
+  /* prev and next button next to the product carousel -moving it to the top */
+  /* prev and next button next to the product carousel*/
+}
+
+#dental-perfect .owl-carousel .item {
+  background: #ffffff;
+  padding: 20px 0px;
+  margin: 1px;
+  color: black;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#dental-perfect .owl-carousel .item .product a {
+  overflow: hidden;
+  color: black;
+}
+
+#dental-perfect .owl-carousel .item .product {
+  -webkit-transition: -webkit-transform 0.1s ease;
+  transition: -webkit-transform 0.1s ease;
+  transition: transform 0.1s ease;
+  transition: transform 0.1s ease, -webkit-transform 0.1s ease;
+}
+
+#dental-perfect .owl-carousel .item .product:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#dental-perfect .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+
+#dental-perfect .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+
+#dental-perfect .owl-carousel .owl-nav button.owl-prev span,
+#dental-perfect .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+
+#dental-perfect .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+
+#dental-perfect .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+
+#dental-perfect .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/* new-arrival template*/
+#suture {
+  /* prev and next button next to the product carousel -moving it to the top */
+  /* prev and next button next to the product carousel*/
+}
+
+#suture .owl-carousel .item {
+  background: #ffffff;
+  padding: 20px 0px;
+  margin: 1px;
+  color: black;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#suture .owl-carousel .item .product a {
+  overflow: hidden;
+}
+
+#suture .owl-carousel .item .product {
+  -webkit-transition: -webkit-transform 0.1s ease;
+  transition: -webkit-transform 0.1s ease;
+  transition: transform 0.1s ease;
+  transition: transform 0.1s ease, -webkit-transform 0.1s ease;
+}
+
+#suture .owl-carousel .item .product:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#suture .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+
+#suture .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+
+#suture .owl-carousel .owl-nav button.owl-prev span,
+#suture .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+
+#suture .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+
+#suture .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+
+#suture .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/* new-arrival template*/
+#cotisen {
+  /* prev and next button next to the product carousel -moving it to the top */
+  /* prev and next button next to the product carousel*/
+}
+
+#cotisen .owl-carousel .item {
+  background: #ffffff;
+  padding: 20px 0px;
+  margin: 1px;
+  color: black;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#cotisen .owl-carousel .item .product a {
+  overflow: hidden;
+}
+
+#cotisen .owl-carousel .item .product {
+  -webkit-transition: -webkit-transform 0.1s ease;
+  transition: -webkit-transform 0.1s ease;
+  transition: transform 0.1s ease;
+  transition: transform 0.1s ease, -webkit-transform 0.1s ease;
+}
+
+#cotisen .owl-carousel .item .product:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#cotisen .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+
+#cotisen .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+
+#cotisen .owl-carousel .owl-nav button.owl-prev span,
+#cotisen .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+
+#cotisen .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+
+#cotisen .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+
+#cotisen .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/* new-arrival template*/
+#dts {
+  /* prev and next button next to the product carousel -moving it to the top */
+  /* prev and next button next to the product carousel*/
+}
+
+#dts .owl-carousel .item {
+  background: #ffffff;
+  padding: 20px 0px;
+  margin: 1px;
+  color: black;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#dts .owl-carousel .item .product a {
+  overflow: hidden;
+}
+
+#dts .owl-carousel .item .product {
+  -webkit-transition: -webkit-transform 0.1s ease;
+  transition: -webkit-transform 0.1s ease;
+  transition: transform 0.1s ease;
+  transition: transform 0.1s ease, -webkit-transform 0.1s ease;
+}
+
+#dts .owl-carousel .item .product:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#dts .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+
+#dts .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+
+#dts .owl-carousel .owl-nav button.owl-prev span,
+#dts .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+
+#dts .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+
+#dts .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+
+#dts .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+/*# sourceMappingURL=style.css.map */
